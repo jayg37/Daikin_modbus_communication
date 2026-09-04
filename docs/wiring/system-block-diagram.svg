@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+<style>text{font-family:Arial,sans-serif;fill:#111} .box{fill:#f5f5f5;stroke:#333;stroke-width:2} .arrow{stroke:#333;stroke-width:3;marker-end:url(#m)}</style>
+<defs><marker id="m" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#333"/></marker></defs>
+<rect class="box" x="25" y="110" width="190" height="90" rx="12"/><text x="120" y="145" text-anchor="middle" font-size="22">Daikin Mini Split</text><text x="120" y="175" text-anchor="middle" font-size="17">HVAC indoor unit</text>
+<line class="arrow" x1="215" y1="155" x2="320" y2="155"/><rect class="box" x="320" y="110" width="190" height="90" rx="12"/><text x="415" y="145" text-anchor="middle" font-size="22">Airzone DKN</text><text x="415" y="175" text-anchor="middle" font-size="17">Modbus RTU slave</text>
+<line class="arrow" x1="510" y1="155" x2="615" y2="155"/><rect class="box" x="615" y="110" width="190" height="90" rx="12"/><text x="710" y="145" text-anchor="middle" font-size="22">USB RS485</text><text x="710" y="175" text-anchor="middle" font-size="17">FTDI interface</text>
+<line class="arrow" x1="805" y1="155" x2="910" y2="155"/><rect class="box" x="910" y="110" width="240" height="90" rx="12"/><text x="1030" y="145" text-anchor="middle" font-size="22">Raspberry Pi Zero 2 W</text><text x="1030" y="175" text-anchor="middle" font-size="17">Python Modbus + MQTT</text>
+<text x="415" y="235" text-anchor="middle" font-size="16">Blue = BMS+ / A+</text><text x="415" y="258" text-anchor="middle" font-size="16">Green = BMS- / B-</text><text x="710" y="235" text-anchor="middle" font-size="16">A+ / D+ → Blue</text><text x="710" y="258" text-anchor="middle" font-size="16">B- / D- → Green</text>
+</svg>
