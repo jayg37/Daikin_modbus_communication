@@ -1,11 +1,7 @@
-# Home Assistant configuration
+# Home Assistant
 
-This directory contains the Home Assistant YAML used by the project.
+The repository preserves the upstairs setpoint synchronization automation at:
 
-## Baseline automation
+`sync_upstairs_mini_split_setpoint.yaml`
 
-`sync_upstairs_mini_split_setpoint.yaml` is the intentionally minimal test automation.
-
-It triggers only on a change to the Honeywell thermostat's exposed `temperature` target and sends the Daikin a target of Honeywell +2°F, clamped to a 70°F minimum.
-
-HVAC mode is intentionally untouched during this test phase.
+The automation is intentionally separate from the Modbus transport and sets the upstairs Daikin target to the downstairs Honeywell target +2°F, with a 70°F minimum.
